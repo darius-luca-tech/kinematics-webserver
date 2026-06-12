@@ -1,0 +1,8 @@
+services:
+  fk:
+    build: .
+    image: parol6-fk: latest
+    container_name: parol6-fk
+    ports:
+      "8000:8000"
+    restart: unless-stopped
